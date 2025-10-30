@@ -118,6 +118,10 @@ function App() {
         onSelectGame={handleAddGame}
         selectedGameIds={selectedGameIds}
       />
+
+      <footer className="max-w-7xl mx-auto py-4 px-4 text-center text-sm text-gray-500">
+        Sports Dashboard v1.0 • Deployed on AWS Amplify
+      </footer>
     </div>
   )
 }
